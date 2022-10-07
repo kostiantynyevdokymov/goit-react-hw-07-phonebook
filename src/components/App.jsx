@@ -8,7 +8,7 @@ const App = () => {
   return (
     <Main title="Phonebook">
       <Phonebook />
-      {!isLoading && data.length > 0 ? (
+      {!isLoading && data?.length > 0 ? (
         <Contacts name="Contacts" />
       ) : (
         <p>Phonebook empty</p>

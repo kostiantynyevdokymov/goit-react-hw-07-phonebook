@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 const Button = styled.button`
   margin-top: 20 px;
-  width: 100px;
+  /* width: 100px; */
   height: 50px;
   color: black;
   background-color: rgb(255, 255, 0);
